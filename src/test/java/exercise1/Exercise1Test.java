@@ -15,7 +15,6 @@ import static org.assertj.core.api.Assertions.fail;
 public class Exercise1Test {
 
 	private Person mannekenPis;
-
 	@Before
 	public void setUp() {
 		mannekenPis = Exercise1.createPerson("Manneken Pis", 97);
